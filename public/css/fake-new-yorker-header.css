@@ -6,12 +6,12 @@ header {
 
 .icon {
     grid-area: icon;
-    max-width: 14rem;
-    max-height: 14rem;
 }
 
 .icon img {
     object-fit: contain;
+    max-width: 14rem;
+    max-height: 14rem;
 }
 
 

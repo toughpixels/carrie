@@ -1,11 +1,38 @@
 .m1 {
-    margin: 1rem;
-}
-
-.m2 {
-    margin: 2rem;
+    margin: .1rem;
 }
 
 .p1 {
-    padding: 1rem;
+    padding: .2rem;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .m1 {
+        margin: .25rem;
+    }
+
+    .p1 {
+        padding: .4rem;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .m1 {
+        margin: .5rem;
+    }
+
+    .p1 {
+        padding: .8rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .m1 {
+        margin: 1rem;
+    }
+
+    .p1 {
+        padding: 1rem;
+    }
 }

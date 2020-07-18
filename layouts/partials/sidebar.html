@@ -1,7 +1,30 @@
 {{ define "sidebar" }}
-    <div class="m1 sidebar">
-      <div class="footer-line">
-          sidebar
-      </div>
-    </div>
+<div class="m1 sidebar flex flex-column comet-underline">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+            <div class="hover-active">
+              <a class="flex" href="{{ .URL }}">
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+              </a>
+              <div class="sub-menu">
+                  {{ range .Children }}
+                      <div>
+                        {{ .Pre }}
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                      </div>
+                  {{ end }}
+              </div>
+            </div>
+        {{ else }}
+            <div>
+                <a href="{{ .URL }}">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
 {{ end }}
