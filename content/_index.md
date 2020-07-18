@@ -1,6 +1,6 @@
 ---
-title: "Carrie Rennolds, failing past you."
-subtitle: "Carrie, like the movie."
+title: "Carrie Rennolds."
+subtitle: "Failing past you."
 icon: '/images/tampon-artists-rendering.png'
 caption: "Tampon Emoji"
 ---

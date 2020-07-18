@@ -17,8 +17,12 @@ body {
   display: flex
 }
 
-h1 {
-  font-size: 3rem; 
+.flex-center {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 main {
