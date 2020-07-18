@@ -1,13 +1,8 @@
 {{ define "header" }}
-      <header class="header m2">
+      <header class="flex flex-column header m1 line-bottom">
         <h1>{{.Title}}</h1>
         {{ with .Params.subtitle }}
         <h3 class="subtitle">{{.}}</h3>
         {{ end }}
       </header>
-      {{ with .Params.icon }}
-      <div class="rotating icon flex">
-        <img alt="Hand drawn tampon" src="{{.}}">
-      </div>
-      {{ end }}
 {{ end }}

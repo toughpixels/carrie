@@ -17,36 +17,19 @@ body {
   display: flex
 }
 
-header {
-  grid-area: header;
-  text-align: right;
-}
-
 h1 {
   font-size: 3rem; 
 }
 
-.icon {
-  grid-area: icon;
-  max-width: 14rem;
-  max-height: 14rem;
+main {
+  overflow-y: scroll;
+  grid-area: body;
+  background-color: cornsilk;
 }
 
-.icon img {
-  object-fit: contain;
-}
-
-footer {
+.footer {
   grid-area: footer;
+  bottom: 0;
+  width: 100%;
+  max-height: .5rem;
 }
-
-.rotating {
-  animation-duration: 120s;
-  animation: spin 12s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-   transform:rotate(1turn)
-  }
- }

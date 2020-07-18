@@ -1,0 +1,15 @@
+{{ define "icon" }}
+    <div class="flex flex-column">
+        {{ with .Params.icon }}  
+        <div class="icon rotating flex m1">
+        <img alt="Hand drawn tampon" src="{{.}}">
+        </div>
+        {{ end }}
+        {{ with .Params.caption }}
+        <div class="icontext m1">
+        {{.}}
+        </div>
+        {{ end }}
+    </div>
+    </div>
+{{ end }}
