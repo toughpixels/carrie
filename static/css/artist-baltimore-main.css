@@ -1,0 +1,52 @@
+body {
+  background-color: pink;
+  overflow: hidden;
+}
+
+.grid {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: 
+    'header icon'
+    'body sidebar'
+    'footer footer'
+}
+
+.flex {
+  display: flex
+}
+
+header {
+  grid-area: header;
+  text-align: right;
+}
+
+h1 {
+  font-size: 3rem; 
+}
+
+.icon {
+  grid-area: icon;
+  max-width: 14rem;
+  max-height: 14rem;
+}
+
+.icon img {
+  object-fit: contain;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.rotating {
+  animation-duration: 120s;
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+   transform:rotate(1turn)
+  }
+ }

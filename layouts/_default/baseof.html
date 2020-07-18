@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    {{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ relURL (.) }}">
+    {{ end }}
+
+  </head>
+  <body>
+    <div class="grid m1">
+      {{ block "header" . }}
+      {{ end }}
+      {{ block "main" . }}
+      {{ end }}
+      {{ block "sidebar" . }}
+      {{ end }}
+      {{ block "footer" . }}
+      {{ end }}
+    </div>
+  </body>
+</html>
