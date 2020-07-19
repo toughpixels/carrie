@@ -42,6 +42,10 @@ main {
   border-bottom: .25rem solid black;
 }
 
+.comet-underline a:focus {
+  border-bottom: .25rem solid black;
+}
+
 .tiny-icon {
   max-width: 2rem;
   max-height: 2rem;
