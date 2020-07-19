@@ -3,7 +3,7 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-            <div class="hover-active">
+            <div class="active">
               <a class="flex" href="{{ .URL }}">
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
