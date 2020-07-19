@@ -11,4 +11,3 @@ draft: false
 
 ![Image1](/images/lars.jpg)
 
-![Image1](/images/snake.jpg)

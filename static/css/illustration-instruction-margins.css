@@ -3,12 +3,24 @@
 }
 
 .p1 {
-    padding: .2rem;
+    padding: .4rem;
 }
 
 
 .mr1 {
     margin: .1rem;
+}
+
+.fonttitle {
+    font-size: 2rem;
+}
+
+.fontsubtitle {
+    font-size: 1.3rem;
+}
+
+.font {
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -21,7 +33,7 @@
     }
     
     .p1 {
-        padding: .4rem;
+        padding: .6rem;
     }
 }
 
@@ -35,17 +47,17 @@
     }
 
     .p1 {
-        padding: .8rem;
+        padding: 1rem;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .mr1 {
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
 
     .m1 {
-        margin: 1rem;
+        margin: 2rem;
     }
 
     .p1 {
