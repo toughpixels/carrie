@@ -8,10 +8,14 @@ header {
     grid-area: icon;
 }
 
-.icon img {
+.icon img {;
+    max-width: 15vw;
+    max-height: 15vw;
     object-fit: contain;
-    max-width: 14rem;
-    max-height: 14rem;
+}
+
+.icontext {
+
 }
 
 

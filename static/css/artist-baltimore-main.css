@@ -10,25 +10,14 @@ body {
   grid-gap: .5rem;
   grid-template-areas: 
     'header icon'
-    'body sidebar'
-}
-
-.flex {
-  display: flex
-}
-
-.flex-center {
-  justify-content: center;
-}
-
-.flex-column {
-  flex-direction: column;
+    'body sidebar';
+  grid-template-columns: auto 25vw;
+  grid-template-rows: 25vh auto;
 }
 
 main {
   overflow-y: scroll;
   grid-area: body;
-  background-color: cornsilk;
 }
 
 .hover-active div {
@@ -49,4 +38,14 @@ main {
 
 .tiny-icon {
   max-width: 2rem;
+}
+
+.homepage-content p {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-content img {
+  max-height: 68vh;
+  object-fit: contain;
 }

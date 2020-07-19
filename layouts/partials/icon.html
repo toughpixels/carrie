@@ -1,12 +1,10 @@
 {{ define "icon" }}
-    <div class="icon flex flex-column">
+    <div class="icon flex flex-column justify-center align-center">
         {{ with .Params.icon }}  
-        <div class="rotating flex m1">
-        <img alt="Hand drawn tampon" src="{{.}}">
-        </div>
+        <img class="rotating p1" alt="Hand drawn tampon" src="{{.}}">
         {{ end }}
         {{ with .Params.caption }}
-        <div class="icontext m1">
+        <div class="icontext">
         {{.}}
         </div>
         {{ end }}

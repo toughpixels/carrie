@@ -4,10 +4,12 @@ title = "Carrie Rennolds"
 
 [params]
   subtitle = "Carrie, like the movie."
+  content-background = "cornsilk"
   custom_css = ["css/artist-baltimore-main.css", 
                 "css/illustration-instruction-margins.css", 
                 "css/fake-new-yorker-header.css",
-                "css/necroprancer-borders.css"]
+                "css/necroprancer-borders.css",
+                "css/illustration-pedagogy-flex.css"]
   icon = "images/tampon-artists-rendering.png"
 
 [menu]
