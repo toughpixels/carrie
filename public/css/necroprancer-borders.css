@@ -1,0 +1,8 @@
+.top-right-corner {
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.line-bottom {
+    border-bottom: 2px black solid;
+}
