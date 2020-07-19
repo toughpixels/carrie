@@ -1,0 +1,28 @@
+header {
+    grid-area: header;
+    text-align: right;
+}
+
+
+.icon {
+    grid-area: icon;
+}
+
+.icon img {;
+    object-fit: contain;
+}
+
+.icontext {
+
+}
+
+
+.rotating {
+    animation: spin 18s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform:rotate(1turn)
+    }
+}
