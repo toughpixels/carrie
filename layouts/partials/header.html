@@ -1,8 +1,8 @@
 {{ define "header" }}
       <header class="flex flex-column flex-center justify-center header line-bottom">
-        <div class="m1 fonttitle fw5">{{.Title}}</div>
+        <h1 class="fonttitle">{{.Title}}</div>
         {{ with .Params.subtitle }}
-        <div class="m1 fontsubtitle fw3">{{.}}</div>
+        <h2 class="fontsubtitle fw5">{{.}}</div>
         {{ end }}
       </header>
 {{ end }}

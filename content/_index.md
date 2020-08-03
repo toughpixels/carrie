@@ -1,8 +1,8 @@
 ---
 title: "Carrie Rennolds."
-subtitle: "Failing past you."
-icon: '/images/tampon-artists-rendering.png'
-caption: "Tampon Emoji"
+subtitle: "(rich, inner) fantasy life"
+icon: "images/icon/icon.png"
+iconText: "images/icon/iconText.png"
 draft: false
 ---
 ![Give Cash TO BLM](/images/blmcash.jpg)

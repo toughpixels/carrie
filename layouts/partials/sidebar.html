@@ -1,5 +1,5 @@
 {{ define "sidebar" }}
-<div class="sidebar flex flex-column comet-underline">
+<div class="sidebar flex flex-column justify-around comet-underline">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}

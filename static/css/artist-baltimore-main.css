@@ -20,6 +20,10 @@ main {
 }
 
 .active div {
+  max-width: max-content;
+}
+
+.active div {
   position: absolute;
   display: none;
 }

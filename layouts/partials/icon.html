@@ -3,10 +3,8 @@
         {{ with .Params.icon }}  
         <img class="rotating" alt="Hand drawn tampon" src="{{.}}">
         {{ end }}
-        {{ with .Params.caption }}
-        <div class="icontext">
-        {{.}}
-        </div>
+        {{ with .Params.iconText }}
+        <img alt="Tampon Emoji" src="{{.}}">
         {{ end }}
     </div>
     </div>

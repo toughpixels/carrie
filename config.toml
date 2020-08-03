@@ -3,13 +3,9 @@ languageCode = "en-us"
 title = "Carrie Rennolds"
 
 [params]
-  # text
-  subtitle = "Carrie, like the movie."
   # colors
   background = "pink"
   border = "black"
-  # images on every page
-  icon = "images/tampon-artists-rendering.png"
   # css
   custom_css = ["css/artist-baltimore-main.css", 
                 "css/illustration-instruction-margins.css", 
