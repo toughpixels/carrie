@@ -8,17 +8,13 @@ header {
     grid-area: icon;
 }
 
-.icon img {;
+.icon img {
     object-fit: contain;
-}
-
-.icontext {
-
 }
 
 
 .rotating {
-    animation: spin 18s linear infinite;
+    animation: spin 16s linear infinite;
 }
 
 @keyframes spin {

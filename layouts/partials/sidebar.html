@@ -1,30 +1,22 @@
 {{ define "sidebar" }}
-<div class="sidebar flex flex-column justify-around comet-underline">
+<nav class="sidebar">
     {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-            <div class="active">
-              <a class="flex" href="{{ .URL }}">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-              </a>
-              <div class="sub-menu">
-                  {{ range .Children }}
-                      <div>
-                        {{ .Pre }}
-                        <a href="{{ .URL }}">{{ .Name }}</a>
-                      </div>
-                  {{ end }}
-              </div>
-            </div>
-        {{ else }}
-            <div>
-                <a href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </div>
-        {{ end }}
+    <div class="flex flex-wrap space-evenly">
+    {{ range .Site.Sections }}
+        <div class="activate line-right line-bottom line-bottom-hover line-right-hover pa1-ns pa2-nm sidebar-header">
+            <a href="{{ .Permalink }}">
+                {{ with .Params.pre }}
+                <img class=tiny-icon src="{{ . }}"></img>
+                {{ end }}
+                <span>{{ .Title }}</span>
+            </a>
+        </div>
     {{ end }}
-</div>
+    </div>
+    {{ range .Site.Sections }}
+    <h5 class="tc sidebar-info">
+        What are you looking at?
+    </h5>
+    {{ end }}
+</nav>
 {{ end }}

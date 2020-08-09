@@ -11,22 +11,23 @@ title = "Carrie Rennolds"
                 "css/illustration-instruction-margins.css", 
                 "css/fake-new-yorker-header.css",
                 "css/necroprancer-borders.css",
-                "css/illustration-pedagogy-flex.css"]
+                "css/illustration-pedagogy-flex.css",
+                "css/sidebar.css"]
 
 [menu]
   [[menu.main]]
-    identifier = "sybil"
+    parent="fantasy"
     name = "Sybil Press"
     pre = "<img class=tiny-icon src=/images/sybil-press-logo.jpg></img>"
     url = "http://www.sybilpress.org/"
     weight = 1
   [[menu.main]]
     name = "Fake New Yorker Volume 1"
-    parent="sybil"
+    parent="fantasy"
     url = "http://www.sybilpress.org/bookstore/fake-new-yorker-vol-2-2018-2nd-printing"
     weight = 2
   [[menu.main]]
     name = "Fake New Yorker Volume 2"
-    parent="sybil"
+    parent="fantasy"
     url = "http://www.sybilpress.org/bookstore/fake-new-yorker-vol-2-1st-edition"
     weight = 3

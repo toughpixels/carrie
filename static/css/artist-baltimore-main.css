@@ -1,66 +1,44 @@
 body {
   overflow: hidden;
+  font-size: 20px;
 }
 
 .grid {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-gap: .5rem;
   grid-template-areas: 
-    'header icon'
-    'body sidebar';
-  grid-template-columns: auto 25vw;
-  grid-template-rows: 25vh auto;
+    'header header header icon'
+    'pad body sidebar sidebar';
+  grid-template-columns: 2fr 67vw 1fr 22vw;
+  grid-template-rows: 18vh 1fr;
 }
 
 main {
   overflow-y: scroll;
   grid-area: body;
+  text-align: center;
 }
 
-.active div {
-  max-width: max-content;
+nav {
+  grid-area: sidebar;
 }
 
-.active div {
-  position: absolute;
-  display: none;
+.pad {
+  grid-area: pad;
 }
 
-.active:hover div {
-  display: block;
-  position: relative;
-  margin-bottom: .25rem;
-  padding-left: .1rem;
-}
-
-.active:focus-within div {
-  display: block;
-  position: relative;
-  margin-bottom: .25rem;
-  padding-left: .1rem;
-}
-
-.comet-underline a:hover {
-  border-bottom: .25rem solid black;
-}
-
-.comet-underline a:focus {
-  border-bottom: .25rem solid black;
-}
-
-.tiny-icon {
-  max-width: 2rem;
-  max-height: 2rem;
-}
-
-.homepage-content p {
-  display: flex;
-  flex-direction: column;
+.homepage-content {
+  max-height: 77vh;
+  max-width: 68vw;
 }
 
 .homepage-content img {
-  max-height: 68vh;
   object-fit: contain;
+  max-height: 75vh;
+  max-width: 66vw;
+}
+
+.tc {
+  text-align: center;
 }

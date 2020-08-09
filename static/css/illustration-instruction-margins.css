@@ -11,6 +11,10 @@
     margin: .1rem;
 }
 
+.mb1 {
+    margin: .1rem;
+}
+
 .fonttitle {
     font-size: 2rem;
 }
@@ -32,8 +36,15 @@
         margin-right: .25rem;
     }
     
+    .mb1 {
+        margin-bottom: .25rem;
+    }
+
     .p1 {
         padding: .6rem;
+    }
+    body {
+        font-size: 24px;
     }
 }
 
@@ -46,8 +57,16 @@
         margin-right: .5rem;
     }
 
+    .mb1 {
+        margin-bottom: .5rem;
+    }
+
     .p1 {
         padding: 1rem;
+    }
+
+    body {
+        font-size: 26px;
     }
 }
 
@@ -60,7 +79,15 @@
         margin: 2rem;
     }
 
+    .mb1 {
+        margin-bottom: .2rem;
+    }
+
     .p1 {
         padding: 1rem;
+    }
+
+    body {
+        font-size: 28px;
     }
 }
