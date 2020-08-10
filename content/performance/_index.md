@@ -1,6 +1,6 @@
 +++
 title = "Performance Art"
-pre = "/images/sybil-press-logo.jpg"
-weight = 1
+image = "/images/sidebar/Performance_Art.png"
+weight = 5
 menu = "main"
 +++

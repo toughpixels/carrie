@@ -1,22 +1,17 @@
 {{ define "sidebar" }}
 <nav class="sidebar">
     {{ $currentPage := . }}
-    <div class="flex flex-wrap space-evenly">
+    <div class="flex flex-wrap justify-around">
     {{ range .Site.Sections }}
+        {{ $title := .Title }}
         <div class="activate line-right line-bottom line-bottom-hover line-right-hover pa1-ns pa2-nm sidebar-header">
             <a href="{{ .Permalink }}">
-                {{ with .Params.pre }}
-                <img class=tiny-icon src="{{ . }}"></img>
+                {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $title }}">
                 {{ end }}
-                <span>{{ .Title }}</span>
             </a>
         </div>
     {{ end }}
     </div>
-    {{ range .Site.Sections }}
-    <h5 class="tc sidebar-info">
-        What are you looking at?
-    </h5>
-    {{ end }}
 </nav>
 {{ end }}

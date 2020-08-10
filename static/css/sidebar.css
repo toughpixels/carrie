@@ -17,12 +17,3 @@
 .activate:focus-within {
     background-color: lightskyblue;
 }
-
-.tiny-icon {
-    max-width: 2rem;
-    max-height: 2rem;
-}
-
-.space-evenly {
-    justify-content: space-evenly;
-}

@@ -1,6 +1,6 @@
 +++
 title = "Institutional Critique"
-pre = "/images/sybil-press-logo.jpg"
+image = "/images/sidebar/Institutional_Critique.png"
 weight = 2
 menu = "main"
 +++

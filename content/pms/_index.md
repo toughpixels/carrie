@@ -1,6 +1,6 @@
 +++
 title = "PMS"
-pre = "/images/sybil-press-logo.jpg"
+image = "/images/sidebar/PMS.png"
 weight = 7
 menu = "main"
 +++

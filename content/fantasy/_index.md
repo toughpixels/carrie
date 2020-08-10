@@ -1,6 +1,6 @@
 +++
 title = "(rich, inner) Fantasy Life"
-pre = "/images/sybil-press-logo.jpg"
-weight = 5
+image = "/images/sidebar/Fantasy_Life.png"
+weight = 1
 menu = "main"
 +++
