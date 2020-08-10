@@ -4,7 +4,7 @@
     <div class="flex flex-wrap justify-around">
     {{ range .Site.Sections }}
         {{ $title := .Title }}
-        <div class="activate line-right line-bottom line-bottom-hover line-right-hover pa1-ns pa2-nm sidebar-header">
+        <div class="activate line-right line-bottom line-bottom-hover line-right-hover mb1 pa1-ns pa2-nm sidebar-header">
             <a href="{{ .Permalink }}">
                 {{ with .Params.image }}
                 <img src="{{ . }}" alt="{{ $title }}">
