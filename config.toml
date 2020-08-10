@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Carrie Rennolds"
 
 [params]
+  # images
+  header = "images/header/header.png"
+  icon = "images/header/icon.png"
   # colors
   background = "pink"
   border = "black"

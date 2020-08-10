@@ -1,8 +1,7 @@
 {{ define "header" }}
-      <header class="mb1 justify-center header line-bottom">
-        <h1 class="fonttitle">{{.Title}}</div>
-        {{ with .Params.subtitle }}
-        <h2 class="fontsubtitle fw5">{{.}}</div>
+      <header class="mb1 center line-bottom">
+        {{ with .Site.Params.header }}
+          <img class="mh-100" src="{{ . }}" alt="Carrie, like the movie.">  
         {{ end }}
       </header>
 {{ end }}

@@ -1,10 +1,7 @@
 {{ define "icon" }}
     <div class="icon flex flex-column justify-center align-center mb2">
-        {{ with .Params.icon }}  
+        {{ with .Site.Params.icon }}  
         <img class="rotating" alt="Hand drawn tampon" src="{{.}}">
-        {{ end }}
-        {{ with .Params.iconText }}
-        <img alt="Tampon Emoji" src="{{.}}">
         {{ end }}
     </div>
     </div>

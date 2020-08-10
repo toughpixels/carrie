@@ -1,8 +1,7 @@
 ---
 title: "Carrie Rennolds."
 subtitle: "(rich, inner) fantasy life"
-icon: "images/icon/icon.png"
-iconText: "images/icon/iconText.png"
+icon: "images/header/icon.png"
 imageDirectory: '/images/homepage/'
 ---
 
