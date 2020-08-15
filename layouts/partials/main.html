@@ -1,9 +1,11 @@
 <div class="line-top-large pad"></div>
 <main aria-role="main" class="line-top-large line-right tc">
     <div class="content">
-      {{ $folder := .Params.imageDirectory }}
-      {{ range readDir (print "/static" $folder) }}
-        <img src="{{ print $folder .Name }}" alt="{{ .Name }}">
+      {{ with .Params.imageDirectory }}
+        {{ $folder := . }}
+        {{ range readDir (print "/static" $folder) }}
+          <img src="{{ print $folder .Name }}" alt="{{ .Name }}">
+        {{ end }}
       {{ end }}
       {{.Content}}
     </div>
