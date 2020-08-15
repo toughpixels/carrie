@@ -1,11 +1,3 @@
 {{ define "main" }}
-    <main aria-role="main" class="line-top line-right">
-      <div class="homepage-content">
-        {{ $folder := .Params.imageDirectory }}
-        {{ range readDir (print "/static" $folder) }}
-          <img src="{{ print $folder .Name }}" alt="{{ .Name }}">
-        {{ end }}
-        {{.Content}}
-      </div>
-    </main>
+    {{ partial "main.html" . }}
 {{ end }}

@@ -1,7 +1,10 @@
 {{ define "header" }}
-      <header class="mb2 line-bottom">
+      <header class="mb2 w-100 flex align-center justify-center line-bottom">
         {{ with .Site.Params.header }}
-          <img class="h-100" src="{{ . }}" alt="Carrie, like the movie.">  
+          <img class="ma2-ns ma-1 h-100" src="{{.}}" alt="Carrie, like the movie.">  
+        {{ end }}
+        {{ with .Site.Params.icon }}  
+          <img class="ma2-ns ma-1 h-100 rotating" src="{{.}}" alt="Eternally spinning tampon">
         {{ end }}
       </header>
 {{ end }}

@@ -2,6 +2,18 @@
     border-right: 2px black solid;
 }
 
+@media only screen and (min-width: 30em) {
+    .line-top-large {
+        border-top: 2px black solid;
+    }
+}
+
+@media only screen and (max-width: 30em) {
+    .line-bottom-small {
+        border-bottom: 2px black solid;
+    }
+}
+
 .line-top {
     border-top: 2px black solid;
 }

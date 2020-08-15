@@ -4,41 +4,50 @@ body {
 }
 
 .grid {
-  height: 100vh;
   width: 100vw;
-  display: grid;
-  grid-template-areas: 
-    'header header header icon'
-    'pad body sidebar sidebar';
-  grid-template-columns: 2fr 67vw 1fr 22vw;
-  grid-template-rows: 18vh 1fr;
-}
-
-main {
   overflow-y: scroll;
-  grid-area: body;
-  text-align: center;
 }
 
 nav {
-  grid-area: sidebar;
+  background-color: inherit;
 }
 
-.pad {
-  grid-area: pad;
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
-.homepage-content {
-  max-height: 77vh;
-  max-width: 68vw;
-}
-
-.homepage-content img {
+img {
   object-fit: contain;
-  max-height: 75vh;
-  max-width: 66vw;
 }
 
-.tc {
-  text-align: center;
+@media only screen and (min-width: 30em) {
+  .grid {
+    grid-template-areas: 
+    'header header header'
+    'pad body sidebar';
+    grid-template-columns: 1fr 67vw 4fr;
+    grid-template-rows: 26vh 1fr;
+    display: grid;
+  }
+  
+  .main {
+    grid-area: body;       
+  }
+
+  nav {
+    grid-area: sidebar;
+    position: relative;                                                                       
+  }
+  
+  nav img {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: .3rem;  
+  }
+
+  .pad {
+    grid-area: pad;
+  }
 }

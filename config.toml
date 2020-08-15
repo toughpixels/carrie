@@ -4,18 +4,16 @@ title = "Carrie Rennolds"
 
 [params]
   # images
-  header = "images/header/header.png"
-  icon = "images/header/icon.png"
+  header = "/images/header/header.png"
+  icon = "/images/header/icon.png"
   # colors
   background = "pink"
   border = "black"
   # css
   custom_css = ["css/artist-baltimore-main.css", 
-                "css/illustration-instruction-margins.css", 
                 "css/fake-new-yorker-header.css",
                 "css/necroprancer-borders.css",
-                "css/illustration-pedagogy-flex.css",
-                "css/sidebar.css"]
+                "css/illustration-pedagogy-flex.css"]
 
 [menu]
   [[menu.main]]

@@ -1,17 +1,19 @@
 {{ define "sidebar" }}
-<nav class="sidebar">
-    {{ $currentPage := . }}
-    <div class="flex flex-wrap justify-around">
-    {{ range .Site.Sections }}
-        {{ $title := .Title }}
-        <div class="activate line-right line-bottom line-bottom-hover line-right-hover mb1 pa1-ns pa2-nm sidebar-header">
-            <a href="{{ .Permalink }}">
-                {{ with .Params.image }}
-                <img src="{{ . }}" alt="{{ $title }}">
-                {{ end }}
-            </a>
-        </div>
-    {{ end }}
-    </div>
+<nav class="flex justify-around pa1 line-bottom">
+{{ $currentPage := . }}
+{{ $basePath := "/images/sidebar/" }}
+{{ range .Site.Sections }}
+    {{ $title := .Title }}
+        <a class="activate w-100 line-bottom line-right ma1 flex justify-center"
+            style="background-color:{{.Params.color}};"
+            href="{{ .Permalink }}">
+            {{ with .Params.menuImage }}
+                <picture>
+                    <source media="(min-width: 30em)" srcset="{{ print $basePath `sideways/` . }}">
+                    <img src="{{ print $basePath `flat/` . }}" alt="{{ $title }}">
+                </picture>
+            {{ end }}
+        </a>
+{{ end }}
 </nav>
 {{ end }}
