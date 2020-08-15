@@ -12,6 +12,10 @@
     .line-bottom-small {
         border-bottom: .25rem black solid;
     }
+
+    .line-left-small {
+        border-left: .25rem black solid;
+    }
 }
 
 .line-top {

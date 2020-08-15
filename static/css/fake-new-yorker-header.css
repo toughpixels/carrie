@@ -3,15 +3,9 @@ header {
     text-align: right;
 }
 
-
 .icon {
     grid-area: icon;
 }
-
-.icon img {
-    object-fit: contain;
-}
-
 
 .rotating {
     animation: spin 16s linear infinite;
