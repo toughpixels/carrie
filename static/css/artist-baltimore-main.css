@@ -22,6 +22,11 @@ img {
   object-fit: contain;
 }
 
+header {
+  max-height: 26vh;
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 30em) {
   .grid {
     grid-template-areas: 
@@ -37,8 +42,7 @@ img {
   }
 
   nav {
-    grid-area: sidebar;
-    position: relative;                                                                       
+    grid-area: sidebar;                                                                     
   }
   
   nav img {

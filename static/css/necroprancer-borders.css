@@ -1,43 +1,23 @@
 .line-right {
-    border-right: 2px black solid;
+    border-right: .25rem black solid;
 }
 
 @media only screen and (min-width: 30em) {
     .line-top-large {
-        border-top: 2px black solid;
+        border-top: .25rem black solid;
     }
 }
 
 @media only screen and (max-width: 30em) {
     .line-bottom-small {
-        border-bottom: 2px black solid;
+        border-bottom: .25rem black solid;
     }
 }
 
 .line-top {
-    border-top: 2px black solid;
+    border-top: .25rem black solid;
 }
 
 .line-bottom {
-    border-bottom: 2px black solid;
-}
-
-.line-bottom-hover:hover {
-    border-bottom: 3px black solid;
-}
-
-.line-bottom-hover:focus-within {
-    border-bottom: 3px black solid;
-}
-
-.line-right-hover:hover {
-    border-right: 3px black solid;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-}
-
-.line-right-hover:focus-within {
-    border-right: 3px black solid;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
+    border-bottom: .25rem black solid;
 }
