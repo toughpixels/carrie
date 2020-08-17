@@ -9,12 +9,11 @@
         <link rel="stylesheet" href="{{ relURL (.) }}">
     {{ end }}
   </head>
-  <body style="background-color:{{.Params.color}};" class="grid p1">
+  <body style="background-color:{{.Params.color}};" class="grid">
     {{ block "header" . }}
     {{ end }}
     {{ block "sidebar" . }}
     {{ end }}
-    <div class="line-top-large pad"></div>
     {{ block "main" . }}
     {{ end }}
   </body>
