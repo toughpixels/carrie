@@ -6,7 +6,7 @@
     {{ $title := .Title }}
         <a class="activate w-100 line-bottom line-right ma1 flex justify-center"
             style="background-color:{{.Params.color}};"
-            href="{{ .Permalink | absURL }}">
+            href="{{ .Permalink }}">
             {{ with .Params.menuImage }}
                 <picture>
                     <source media="(min-width: 30em)" srcset="{{ print $basePath `sideways/` . }}">
