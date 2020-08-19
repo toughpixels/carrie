@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     {{ range .Site.Params.custom_css }}
-        <link rel="stylesheet" href="{{ relURL (.) }}">
+        <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}
   </head>
   <body style="background-color:{{.Params.color}};" class="grid">
