@@ -1,5 +1,5 @@
 ---
 title: "Carrie Rennolds"
-imageDirectory: "/images/pms/"
+imageDirectory: "/images/fantasy/"
 color: "pink"
 ---
