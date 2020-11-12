@@ -6,6 +6,9 @@ menu = "main"
 color = "turquoise"
 imageDirectory = "/images/performance/"
 +++
-I've been explaining my art since grad school as illustrating "problems and failures in modern society", which is a line I stole from Michael Hanenke's wikipedia page in 2010.
 
-[Email me!](realfakenewyorker@gmail.com)
+# Welcome
+
+I've been explaining my art since grad school as illustrating "problems and failures in modern society", which is a line I stole from Michael Hanenke's [Wikipedia](https://www.wikipedia.org/) page in [2010](https://en.wikipedia.org/wiki/2010_(disambiguation)).
+
+[Email me](realfakenewyorker@gmail.com) if you agree. If you don't, I invite you to ponder further.
