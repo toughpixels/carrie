@@ -13,4 +13,4 @@ color = "red"
 	* [Vol. 2, 2019](http://www.sybilpress.org/bookstore/fake-new-yorker-vol-2-1st-edition)
 	* [Vol. 1, 2018](http://www.sybilpress.org/bookstore/fake-new-yorker-vol-2-2018-2nd-printing)
 	
-If you're interested in a (fake) bootleg band shirt from Fakabilia [contact me](mailto:realfakenewyorker@gmail.com).
+If you're interested in a (fake) bootleg band shirt from Fakabilia let me [know](mailto:realfakenewyorker@gmail.com).
