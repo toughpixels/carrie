@@ -4,7 +4,6 @@ body {
 }
 
 .grid {
-  width: 100vw;
   overflow-y: scroll;
 }
 

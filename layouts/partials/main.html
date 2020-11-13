@@ -1,12 +1,15 @@
 <div class="line-top-large pad"></div>
-<main aria-role="main" class="line-top-large line-right tc line-bottom-small">
-    <div class="content">
+<main aria-role="main" class="line-top-large line-right tc line-bottom-small f4 f3-l ">
+    <div class="content mh1 pt1">
       {{ with .Params.imageDirectory }}
         {{ $folder := . }}
         {{ range readDir (print "/static" $folder) }}
-          <img src="{{ print $folder .Name }}" alt="{{ .Name }}">
+          {{ $altText  := replace .Name "_" " " }}
+          <img src="{{ print $folder .Name }}" alt="{{ $altText }}">
         {{ end }}
       {{ end }}
-      {{.Content}}
+      <div class="tl ma1">
+        {{.Content}}
+      </div>
     </div>
 </main>

@@ -1,10 +1,10 @@
 {{ define "sidebar" }}
-<nav class="flex justify-around pa1 line-bottom line-left-small">
+<nav class="flex justify-around pa1 pa2-ns line-bottom line-left-small">
 {{ $currentPage := . }}
 {{ $basePath := "/images/sidebar/" }}
 {{ range .Site.Sections }}
     {{ $title := .Title }}
-        <a class="activate w-100 line-bottom line-right ma1 flex justify-center"
+        <a class="activate mh-90 w-100 line-bottom line-right ma1 flex justify-center"
             style="background-color:{{.Params.color}};"
             href="{{ .Permalink }}">
             {{ with .Params.menuImage }}

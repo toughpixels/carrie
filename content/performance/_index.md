@@ -7,8 +7,8 @@ color = "turquoise"
 imageDirectory = "/images/performance/"
 +++
 
-# Welcome
+# HELLO
 
-I've been explaining my art since grad school as illustrating "problems and failures in modern society", which is a line I stole from Michael Hanenke's [Wikipedia](https://www.wikipedia.org/) page in [2010](https://en.wikipedia.org/wiki/2010_(disambiguation)).
+Since grad school I've explained my art illustrates "problems and failures in modern society", which is a line I stole from Michael Hanenke's [Wikipedia](https://www.wikipedia.org/) page in [2010](https://en.wikipedia.org/wiki/2010_(disambiguation)).
 
-[Email me](realfakenewyorker@gmail.com) if you agree. If you don't, I invite you to ponder further.
+[Email me](mailto:realfakenewyorker@gmail.com) if you agree. If you don't, I invite you to think more.
