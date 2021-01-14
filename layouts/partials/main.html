@@ -1,15 +1,8 @@
-<div class="line-top-large pad"></div>
-<main aria-role="main" class="line-top-large line-right tc line-bottom-small f4 f3-l ">
-    <div class="content mh1 pt1">
-      {{ with .Params.imageDirectory }}
-        {{ $folder := . }}
-        {{ range readDir (print "/static" $folder) }}
-          {{ $altText  := replace .Name "_" " " }}
-          <img src="{{ print $folder .Name }}" alt="{{ $altText }}">
-        {{ end }}
-      {{ end }}
-      <div class="tl ma1">
-        {{.Content}}
-      </div>
-    </div>
-</main>
+<div class="content mh1 pt1">
+  {{ range .Resources.ByType "image" }}
+    {{ partial "image.html" . }}
+  {{ end }}
+  <div class="tl ma1">
+    {{.Content}}
+  </div>
+</div>

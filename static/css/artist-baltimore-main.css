@@ -39,6 +39,13 @@ header {
     grid-template-rows: 26vh 1fr;
     display: grid;
   }
+
+  .imagegrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    column-gap: .5rem;
+    row-gap: .5rem;
+  }
   
   .main {
     grid-area: body;       
