@@ -1,13 +1,13 @@
 baseURL = "https://www.carrierennolds.com"
 languageCode = "en-us"
-title = "Carrie Rennolds"
+title = "Carrie Rennolds Art"
 
 [params]
   # images
   header = "/images/header/header.png"
   icon = "/images/header/icon.png"
   # colors
-  background = "pink"
+  color = "pink"
   border = "black"
   # css
   custom_css = ["/css/artist-baltimore-main.css", 

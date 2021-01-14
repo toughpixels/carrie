@@ -1,3 +1,4 @@
 {{ define "main" }}
-    {{ partial "main.html" . }}
+    {{ $page  := .Site.GetPage "fantasy" }}
+    {{ partial "grid.html" $page }}
 {{ end }}

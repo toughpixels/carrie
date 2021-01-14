@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="{{ . | absURL }}">
     {{ end }}
   </head>
-  <body style="background-color:{{.Params.color}};" class="grid pr1 pr2-ns pr3-l">
+  <body style="background-color:{{ .Param "color" }};" class="grid pr1 pr2-ns pr3-l">
     {{ block "header" . }}
     {{ end }}
     {{ block "sidebar" . }}
     {{ end }}
     <div class="line-top-large pad"></div>
-    <main aria-role="main" class="line-top-large line-right tc line-bottom-small f4 f3-l">
+    <main role="main" class="line-top-large line-right tc line-bottom-small f4 f3-l">
       {{ block "main" . }}
       {{ end }}
     </main>
