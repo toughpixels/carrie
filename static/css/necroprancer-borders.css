@@ -25,3 +25,7 @@
 .line-bottom {
     border-bottom: .25rem black solid;
 }
+
+a {
+    color: inherit;
+}
