@@ -4,6 +4,7 @@ menuImage = "PMS.png"
 weight = 7
 menu = "main"
 color = "red"
+layout = "narrow"
 +++
 
 # Bring Home Merch

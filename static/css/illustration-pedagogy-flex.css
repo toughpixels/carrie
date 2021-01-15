@@ -13,3 +13,17 @@
 .align-center {
     align-items: center;
 }
+.layout--narrow {
+
+}
+.layout--narrow picture,
+.layout--narrow img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+}
+.layout--narrow > div {
+    max-width: 600px;
+    margin: 0 auto;
+}

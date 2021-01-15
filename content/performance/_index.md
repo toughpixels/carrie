@@ -5,6 +5,7 @@ weight = 5
 menu = "main"
 color = "turquoise"
 imageDirectory = "/images/performance/"
+layout = "narrow"
 +++
 
 # HELLO

@@ -1,8 +1,12 @@
-<div class="content mh1 pt1">
+<div class='content mh1 pt1{{ if eq .Page.Params.layout "narrow" }} layout--narrow{{ end }}'>
+  <div>
   {{ range .Resources.ByType "image" }}
     {{ partial "image.html" . }}
   {{ end }}
-  <div class="tl ma1">
+  <div class='tl ma1'>
+
     {{.Content}}
+
   </div>
+</div>
 </div>
