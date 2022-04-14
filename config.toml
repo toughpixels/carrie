@@ -1,6 +1,7 @@
 baseURL = "https://www.carrierennolds.com"
 languageCode = "en-us"
 title = "Carrie Rennolds Art"
+theme = "base"
 
 [params]
   # images
@@ -9,26 +10,10 @@ title = "Carrie Rennolds Art"
   # colors
   color = "pink"
   border = "black"
+  imageSizes = "1280 768 640 320"
+  imageFormats = "webp jpeg"
   # css
   custom_css = ["/css/artist-baltimore-main.css", 
                 "/css/fake-new-yorker-header.css",
                 "/css/necroprancer-borders.css",
                 "/css/illustration-pedagogy-flex.css"]
-
-[menu]
-  [[menu.main]]
-    parent="fantasy"
-    name = "Sybil Press"
-    pre = "<img class=tiny-icon src=/images/sybil-press-logo.jpg></img>"
-    url = "http://www.sybilpress.org/"
-    weight = 1
-  [[menu.main]]
-    name = "Fake New Yorker Volume 1"
-    parent="fantasy"
-    url = "http://www.sybilpress.org/bookstore/fake-new-yorker-vol-2-2018-2nd-printing"
-    weight = 2
-  [[menu.main]]
-    name = "Fake New Yorker Volume 2"
-    parent="fantasy"
-    url = "http://www.sybilpress.org/bookstore/fake-new-yorker-vol-2-1st-edition"
-    weight = 3

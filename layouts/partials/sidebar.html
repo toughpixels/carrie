@@ -3,11 +3,10 @@
 {{ $currentPage := . }}
 {{ $basePath := "/images/sidebar/" }}
 {{ range .Site.Sections }}
-
     {{ $title := .Title }}
         <a class="activate mh-90 w-100 line-bottom line-right ma1 flex justify-center"
             style="background-color:{{.Params.color}};"
-            href="{{ if eq .RelPermalink "/fantasy/" }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+            href="{{ .Permalink }}">
             {{ with .Params.menuImage }}
                 <picture>
                     <source media="(min-width: 30em)" srcset="{{ print $basePath `sideways/` . }}">

@@ -11,24 +11,38 @@ nav {
   background-color: inherit;
 }
 
-.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
 
 img {
   object-fit: contain;
-}
-
-main img {
-  max-height: 98vh;
 }
 
 header {
   max-height: 26vh;
   max-width: 100%;
 }
+
+.imagegrid figure {
+  margin: 0;
+}
+
+main {
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+main figure {
+  margin: 0;
+  padding: 2px;
+}
+
+main img {
+  height: auto;
+  width: auto;
+  border: 1px solid black;
+  outline: 1px solid darkred;
+}
+
+li { list-style: none; }
 
 @media only screen and (min-width: 30em) {
   .grid {
@@ -48,7 +62,9 @@ header {
   }
   
   .main {
-    grid-area: body;       
+    grid-area: body;
+    padding-left: .4rem;
+    padding-right: .4rem;    
   }
 
   nav {
@@ -63,5 +79,9 @@ header {
 
   .pad {
     grid-area: pad;
+  }
+
+  .imagegrid p:first-child {
+    display: none;
   }
 }
