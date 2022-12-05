@@ -6,7 +6,6 @@ menu = "main"
 color = "pink"
 type = "grid"
 +++
-
 ![A mandelorian aims a laser, their blonde hair flowing out of their helmet. It's Baby Fette](Baby_Fette.jpg)
 ![A man in a gimp suit hold a leash, attached to a dog in a gimp suit](Baltimore_BDSM.jpg)
 ![A jacked rat looks directly at you, daring you to do something](Baltimore_rats.jpg)
