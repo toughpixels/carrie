@@ -5,7 +5,6 @@ weight = 2
 menu = "main"
 color = "#fffb53"
 +++
-
 ![National LGBTQIA+ Artists Day!](LGBTQI+ArtistDayPoster.jpg)
 ![A cat wearing a pharoh's hat with a snake on it hold up a museum admission](WSH1.jpeg)
 ![Draw a Greek Vase and Add a New Yorker Cartoon Style Caption](WSH2.jpg)

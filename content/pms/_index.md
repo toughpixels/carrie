@@ -6,7 +6,6 @@ menu = "main"
 color = "red"
 layout = "narrow"
 +++
-
 # Bring Home Merch
 [{{< image src="sybll_press.png" alt="Sybll Press Logo" title="Baltimore Independent Print Media" >}}](https://www.sybilpress.org/)
 ## Fake New Yorker from Sybll Press
