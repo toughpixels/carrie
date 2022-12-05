@@ -1,19 +1,16 @@
 baseURL = "https://www.carrierennolds.com"
 languageCode = "en-us"
 title = "Carrie Rennolds Art"
-description = "Cartoonist, teacher, graphic deisgner and artist. View illustrations from the illustrious Fake New Yorker."
 keywords = "cartoon, drawing, art"
 theme = "base"
 
 [params]
-  # images
-  header = "/images/header/header.png"
-  icon = "/images/header/icon.png"
   # colors
   color = "pink"
   border = "black"
   imageSizes = "1280 768 640 320"
   imageFormats = "webp jpeg"
+  description = "Cartoonist, teacher, graphic deisgner and artist. View illustrations from the illustrious Fake New Yorker."
   # css
   custom_css = ["/css/artist-baltimore-main.css", 
                 "/css/fake-new-yorker-header.css",
