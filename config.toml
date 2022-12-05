@@ -1,6 +1,8 @@
 baseURL = "https://www.carrierennolds.com"
 languageCode = "en-us"
 title = "Carrie Rennolds Art"
+description = "Cartoonist, teacher, graphic deisgner and artist. View illustrations from the illustrious Fake New Yorker."
+keywords = "cartoon, drawing, art"
 theme = "base"
 
 [params]

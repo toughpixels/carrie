@@ -1,6 +1,14 @@
 header {
     grid-area: header;
-    text-align: right;
+    padding: 3ch;
+}
+
+.not-too-tall {
+    max-height: 100%;
+}
+
+.tall {
+    height: 100%;
 }
 
 .icon {
@@ -15,4 +23,43 @@ header {
     100% {
         transform:rotate(1turn)
     }
+}
+
+.tampon-background {
+    fill: white;
+}
+
+.tampon-trail {
+    fill: red;
+}
+
+.tampon-outline {
+    fill: black;
+}
+
+footer {
+    height: 12rem;
+    padding: 2rem;
+}
+
+footer .tampon {
+    height: 100%;
+}
+
+.max-w-100 {
+    max-width: 100%;
+}
+
+.footer-link {
+    padding: 2rem;
+    height: 100%;
+}
+
+.header-link {
+    width: 100%;
+    flex: 1 1 0;
+}
+
+.icon-link {
+    flex: .2 1 0;
 }

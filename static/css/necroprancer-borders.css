@@ -1,8 +1,28 @@
 :root {
     --border-width: .25rem;
+    --border-focused-width: .25rem;
+    --thin-width: 3px;
     --border-color: black;
+    --border-highlight: rgba(255, 255, 255, 0.453);
     --transparent: transparent;
 
+}
+
+.nav-item {
+    border-top-width: var(--thin-width);
+    border-left-width: var(--thin-width);
+    border-right-width: var(--border-width);
+    border-bottom-width: var(--border-width);
+    border-bottom-color: var(--border-color) solid;
+    border-right-color: var(--border-color) solid;
+    border-top-color: var(--border-highlight) solid;
+    border-left-color: var(--border-highlight) solid;
+}
+
+.nav-item:hover, .nav-item:focus {
+    border-bottom-color: var(--border-highlight);
+    border-right-color: var(--border-highlight);
+    border-width: var(--border-focused-width);
 }
 
 .line-bottom {
@@ -23,10 +43,6 @@
 @media only screen and (max-width: 30em) {
     .line-bottom-small {
         border-bottom: var(--border-width) var(--border-color) solid;
-    }
-
-    .line-left-small {
-        border-left: var(--border-width) var(--border-color) solid;
     }
 }
 
