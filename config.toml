@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Carrie Rennolds Art"
 keywords = "cartoon, drawing, art"
 theme = "base"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   # colors
