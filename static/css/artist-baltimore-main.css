@@ -15,11 +15,8 @@ body {
   font-family: "Work";
 }
 
-h1 {
-  font-family: "Cinzel", "system-up", sans-serif;
-}
-
 h1, h2 {
+  font-family: "Cinzel", "system-up", sans-serif;
   text-decoration: underline;
 }
 
