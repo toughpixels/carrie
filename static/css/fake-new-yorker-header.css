@@ -1,6 +1,6 @@
 header {
     grid-area: header;
-    padding: 3ch;
+    padding: 1ch;
 }
 
 .not-too-tall {
@@ -58,8 +58,30 @@ footer .tampon {
 .header-link {
     width: 100%;
     flex: 1 1 0;
+    margin-right: 1ch;
 }
 
 .icon-link {
     flex: .2 1 0;
+}
+
+
+@media screen and (min-width: 480px) {
+    header {
+        padding: 2ch;
+    }
+
+    .header-link {
+        margin-right: 2ch;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        padding: 3ch;
+    }
+
+    .header-link {
+        margin-right: 3ch;
+    }
 }

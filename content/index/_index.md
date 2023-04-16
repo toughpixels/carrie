@@ -24,7 +24,7 @@ type = "grid"
 ![A bed labelled I'm a size queen](I'm_a_size_queen.jpg)
 ![A motivational poster reads: I want to be baby](I_want_to_be_baby.jpg)
 ![a crocodile in a theraposts chair syas It's not that I don't care. It's that I wish I didn't.](I_wish_I_didn't_care.jpg)
-![Me as a falcon rests on a hand labelled my bullshit](My_Bullshit.jpg)
+![Me as a falcon rests on a hand labelled "My Bullshit"](My_Bullshit.jpg)
 ![Lions are visibly injured, it's the pride that's wounded](My_pride_is_wounded.jpg)
 ![Prawn Stars](Prawn_Stars.jpg)
 ![A toilet signed by R Butt 2019](R_Butt.jpg)
